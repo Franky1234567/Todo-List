@@ -33,7 +33,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 <td data-label="Nama User">${user}</td>
                 <td data-label="Jabatan">${jabatan}</td>
                 <td data-label="Tugas">${todoText}</td>
-                <td data-label="Kesulitan">${difficulty}</td>
+                <td data-label="Prioritas">${difficulty}</td>
                 <td data-label="Catatan">${notes}</td>
                 <td data-label="Status"><input type="checkbox"></td> <!-- Tidak perlu kelas -->
                 <td data-label="Hapus"><button class="delete-button">Hapus</button></td>
@@ -74,7 +74,7 @@ document.addEventListener('DOMContentLoaded', () => {
             NameUser.value = '';
             JabatanUser.value = '';
             timeInput.value = '';
-            difficultyInput.value = 'Easy';
+            difficultyInput.value = 'Low';
             noteInput.value = '';
         }
     });
