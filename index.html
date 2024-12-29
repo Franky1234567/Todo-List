@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo List</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Todo List</h1>
+        <div class="form-container">
+            <input type="text" id="Nama-user" placeholder="Nama User">
+            <input type="text" id="jabatan-user" placeholder="Jabatan User">
+            <input type="text" id="input-tugas" placeholder="Tambahkan tugas baru...">
+            <input type="datetime-local" id="time-input">
+            <select id="difficulty-input">
+                <option value="Easy">Easy</option>
+                <option value="Medium">Medium</option>
+                <option value="Hard">Hard</option>
+            </select>
+            <textarea id="note-input" placeholder="Catatan..."></textarea>
+            <button id="add-button">Tambahkan</button>
+        </div>
+        <table id="todo-table">
+            <thead>
+                <tr>
+                    <th>Hari</th>
+                    <th>Tanggal</th>
+                    <th>Nama User</th>
+                    <th>Jabatan</th>
+                    <th>Tugas</th>
+                    <th>Kesulitan</th>
+                    <th>Catatan</th>
+                    <th>Status</th>
+                    <th>Hapus</th>
+                </tr>
+            </thead>
+            <h1>Panding</h1>
+            <tbody id="todo-list">
+                
+            </tbody>
+
+        </table>
+        <h2>Done</h2>
+        <table id="done-table">
+            <thead>
+                <tr>
+                    <th>Hari</th>
+                    <th>Tanggal</th>
+                    <th>Nama User</th>
+                    <th>Jabatan</th>
+                    <th>Tugas</th>
+                    <th>Kesulitan</th>
+                    <th>Catatan</th>
+                    <th>Status</th>
+                    <th>Hapus</th>
+                </tr>
+            </thead>
+            <tbody id="list-done"> 
+                
+            </tbody>
+        </table>
+    </div>
+    
+    </div>
+    <script src="main.js"></script>
+</body>
+
+</html>
